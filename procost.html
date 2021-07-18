@@ -1,0 +1,23 @@
+<?php
+session_start();
+?>
+<!DOCTYPE>
+<html>
+<body>
+<fieldset>
+<legend>PRODUCT DETAILS </legend>
+<form name="login" action="procost.php" method="post"><br>
+PRODUCT CODE:<input type="textbox" name="a" ><br><br>
+DESCRIPTION:<input type="textbox" name="b" ><br><br>
+COST PRICE:<input type="textbox" name="c" ><br><br>
+MARKUP PERCENTAGE:<input type="textbox" name="d"><br><br>
+</fieldset><br>
+<input type="submit" value="SUBMIT">
+<p><a href="logout.php">LOGOUT</a></p>
+</form>
+</body>
+</html>
+
+<?php
+echo $_SESSION['read_count'];
+?>

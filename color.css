@@ -1,0 +1,38 @@
+
+body{
+
+background-image:url("1.jpg");
+}
+
+input[type=text],input[type=password]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+#frm
+{ 
+  border:solid white 1px;
+   width:20%;
+   border-radius:5px;
+   margin:100px auto;
+font-family:Comic Sans MS; 
+  padding:12px; 
+}
+h1
+{
+font-family:Segoe Script;
+color:blue;
+}
+#bn
+
+{ 
+font-family:Comic Sans MS;
+font-size:17px;
+color:#fff;
+background:#337ab7;
+padding:10px;
+margin-left:59%;
+}
